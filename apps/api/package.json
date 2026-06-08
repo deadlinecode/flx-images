@@ -1,0 +1,1 @@
+{"name":"flx-test-api","version":"1.0.0","private":true,"type":"module","dependencies":{"pg":"^8.13.1"},"scripts":{"start":"node server.js"}}
