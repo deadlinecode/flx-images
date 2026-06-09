@@ -40,7 +40,9 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/${{ github.repository_owner }}/${{ matrix.app }}
+          images: |
+            ghcr.io/${{ github.repository_owner }}/${{ matrix.app }}
+            ttl.sh/${{ github.repository_owner }}-flx-${{ matrix.app }}
           tags: |
             type=raw,value=1.0.0
             type=raw,value=latest
