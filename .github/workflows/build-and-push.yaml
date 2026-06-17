@@ -20,8 +20,6 @@ jobs:
       matrix:
         app:
           - web-1
-          - web-2
-          - api
     steps:
       - name: Checkout
         uses: actions/checkout@v4
