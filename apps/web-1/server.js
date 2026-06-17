@@ -15,7 +15,7 @@ const server = http.createServer((req, res) => {
   <head><title>web-1</title></head>
   <body style="font-family: system-ui; margin: 3rem;">
     <h1>web-1 is running ✅</h1>
-    <p>V2</p>
+    <p>V3</p>
     <p>Cluster environment: <strong>${clusterEnv}</strong></p>
   </body>
 </html>\n`);
